@@ -6,4 +6,5 @@
  * Time: 6:57 PM
  */
 echo "Hello World!";
+echo "5+5=10";
 ?>
