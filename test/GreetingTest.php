@@ -21,7 +21,7 @@ final class GreetingTest extends TestCase
 
     public function testGreetingIsNotHelloWorld(): void
     {
-        $this->assertEquals(
+        $this->assertNotEquals(
             'Hello World',
             Greeting::fromString('Thanks')
         );
