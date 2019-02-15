@@ -1,4 +1,4 @@
-# firstProject
+# Definitions of PHP Syntax
 
 "<?php" 
 
