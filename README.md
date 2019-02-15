@@ -12,11 +12,15 @@ final
 
 class
 
+Car
+
 extends
 
 public
 
 function
+
+testCarAccelerates()
 
 void
 
@@ -24,24 +28,28 @@ $car
 
 new
 
-$this
+**_$this->_** - self-pointer to the current object
 
-assertInstanceOf
+**_assertInstanceOf_** - Assertions are used to debug code. You can check if a function returns the correct value or does the right job. In this case, the assertion is checking whether the given object is an instance of a given class
 
-expected
+**_assertClassHasAttribute_** - Assertions are used to debug code. You can check if a function returns the correct value or does the right job. In this case, the assertion is checking whether the class has a specific attribute.
 
-actual
+**_assertEquals_** - Assertions are used to debug code. You can check if a function returns the correct value or does the right job. In this case, the assertion is checking two values, the expected and the actual value, to see if they are equal.
 
-Car::class
+**_assertTrue_** - Assertions are used to debug code. You can check if a function returns the correct value or does the right job. In this case, the assertion is checking whether the returned boolean is true.
 
-assertTrue
+**_expected_** - In assertions, there is a expected value, or the correct value that should be returned by a method. This is compared to the actual value.
 
-method
+**_actual_** -  In assertions, there is an actual value, or the value that the method is actaually returned. This is compared to the expeted value.
 
-int
+**_Car::class_** - Returns the class name with its namespace
 
-return
+**_method_exists_** - Buil in PHP function that check if a method exists in a specified class
 
-static
+**_int_** - notation for the data type interger
+
+**_return_** - stops executing the function and returns a value of a specific data type
+
+**_static_** -  we can declaring classes and methods as static to make makes them accessible without instantiating the class. 
 
 
