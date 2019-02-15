@@ -1,14 +1,12 @@
-# firstProject
+# Definitions of PHP Syntax
 
-<?php
+"<?php" 
 
 declare
 
 strict_types=1
 
 use
-
-PHPUnit\Framework\TestCase
 
 final
 
@@ -46,5 +44,4 @@ return
 
 static
 
-*_abstract_*
 
