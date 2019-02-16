@@ -1,32 +1,32 @@
 # Definitions of PHP Syntax
 
-"<?php" 
+**_<?php_** - 
 
-declare
+**_declare_** -
 
-strict_types=1
+**_strict_types=1_** -
 
-use
+**_use_** -
 
-final
+**_final_** -
 
-class
+**_class_** -
 
-Car
+**_Car_** -
 
-extends
+**_extends_** -
 
-public
+**_public_** -
 
-function
+**_function_** -
 
-testCarAccelerates()
+**_testCarAccelerates()_** -
 
-void
+**_void_** -
 
-$car
+**_$car_** -
 
-new
+**_new_** -
 
 **_$this->_** - self-pointer to the current object
 
