@@ -8,25 +8,29 @@
 
 **_use_** - Tells PHP to use the specific class or file you are referring to
 
-**_final_** - Putting "final" before the class means that the class cannot be extended
+**_final_** - Putting "final" before the class means that the class cannot be extended; a final class should hold specific information, while an abstract class should hold more generic information; Example of a final class: "Ford" or "Volvo"
 
-**_class_** - Think of "class" as a bag; the bag can be filled with functions
+**_abstract_** - Putting "abstract" before the class means that the class can be extended; there should be one abstract class that many final classes may look back at; Example of an abstract class: "Car"
 
-**_Car_** -
+**_class_** - Think of "class" as a bag; the bag can be filled with functions; there should only be one class per file
 
-**_extends_** -
+**_Car_** - The name of a class, which should match the name of the PHP class file
 
-**_public_** -
+**_extends_** - Used to allow a subclass to inherit the class's public functions; Example: "final class Volvo extends Car" - in this case, Volvo class is inheriting Car class's functions
 
-**_function_** -
+**_public_** - Declaring a variable or function as "public" means that it can be accessed from anywhere, even outside of the class
 
-**_testCarAccelerates()_** -
+**_private_** - Declaring a variable or function as "private" means that it can only be accessed from within that class
 
-**_void_** -
+**_function_** - Code that does something; ideally, each function only does one thing; functions can be called in different parts of the program to do that thing; AKA "method"
 
-**_$car_** -
+**_testCarAccelerates()_** - A function in the test file that tests if a function in the class file is working or meeting parameters
 
-**_new_** -
+**_void_** - This is a return type that does not return anything; another example of a return type is "int" which returns an integer
+
+**_$car_** - This is an object; Example: "$car = new Ford();" $car is a new object being created as an instance of the Ford class
+
+**_new_** - Creates an instance of a class, which is an object
 
 **_$this->_** - self-pointer to the current object
 
