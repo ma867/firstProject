@@ -1,16 +1,16 @@
 # Definitions of PHP Syntax
 
-**_<?php_** - 
+**_<?php_** - The opening tag for the file that tells PHP to start interpreting the code; anything that is not between the opening tag and closing tag **_<?_** is ignored 
 
-**_declare_** -
+**_declare_** - Used to set execution directives for just a section of code or for all of the code following it
 
-**_strict_types=1_** -
+**_strict_types=1_** - Enables strict typing when used with declare construct; this forces you to declare a type and use variables of that exact type, otherwise you will get a TypeError
 
-**_use_** -
+**_use_** - Tells PHP to use the specific class or file you are referring to
 
-**_final_** -
+**_final_** - Putting "final" before the class means that the class cannot be extended
 
-**_class_** -
+**_class_** - Think of "class" as a bag; the bag can be filled with functions
 
 **_Car_** -
 
@@ -40,13 +40,13 @@
 
 **_expected_** - In assertions, there is a expected value, or the correct value that should be returned by a method. This is compared to the actual value.
 
-**_actual_** -  In assertions, there is an actual value, or the value that the method is actaually returned. This is compared to the expeted value.
+**_actual_** -  In assertions, there is an actual value, or the value that the method is actually returned. This is compared to the expeted value.
 
-**_Car::class_** - Returns the class name with its namespace
+**_Car::class_** - Returns the class name with its namespace; this is like grabbing the whole class
 
-**_method_exists_** - Buil in PHP function that check if a method exists in a specified class
+**_method_exists_** - Built in PHP function that check if a method exists in a specified class
 
-**_int_** - notation for the data type interger
+**_int_** - notation for the data type integer
 
 **_return_** - stops executing the function and returns a value of a specific data type
 
